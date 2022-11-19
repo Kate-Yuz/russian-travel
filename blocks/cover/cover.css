@@ -1,0 +1,46 @@
+.cover {
+    position: relative;
+    min-height: 740px;
+    max-width: 1184px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 92px;
+    background-image: url(../../images/__background-cover.jpg);
+}
+
+.cover:hover {
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        width: 100vw;
+        max-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        width: 100vw;
+        max-height: 480px;
+        margin-bottom: 88px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        width: 100vw;
+        max-height: 200px;
+        margin-bottom: 64px;
+        margin-bottom: 88px;
+    }
+}
+
+
+
