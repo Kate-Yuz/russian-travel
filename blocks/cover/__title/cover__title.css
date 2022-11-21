@@ -17,22 +17,22 @@ color: #FFFFFF;
 z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__title {
         padding-top: 195px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__title {
         padding-top: 115px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         max-width: 288px;
-        max-height: 70px;
+        min-height: 200px;
         padding-top: 33px;
         margin-bottom: 16px;
         font-size: 32px;

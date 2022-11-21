@@ -7,21 +7,17 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro {
         margin: 88px auto;
-        min-width: 720px;
-        width: 94vw;
-        min-height: 429px;
+        max-width: 720px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro {
         margin: 64px auto;
-        min-width: 288px;
-        width: 90vw;
-        min-height: 754px;
+        max-width: 288px;
     }
 }
 
