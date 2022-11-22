@@ -1,8 +1,7 @@
 @media screen and (max-width: 767px) {
-    .footer__links {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 32px;
-        
-    }
+  .footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+  }
 }

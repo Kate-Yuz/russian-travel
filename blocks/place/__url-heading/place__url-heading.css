@@ -1,23 +1,23 @@
 .place__url-heading {
-    margin-top: 0px;
-    margin-bottom: 12px;
-    font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-/* identical to box height, or 100% */
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
 
-letter-spacing: 2px;
-color: #AAAAAA;
+  letter-spacing: 2px;
+  color: #aaaaaa;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__url-heading {
-        max-width: 352px;
-    }
+  .place__url-heading {
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__url-heading {
-        max-width: 288px;
-    }
+  .place__url-heading {
+    max-width: 288px;
+  }
 }

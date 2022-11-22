@@ -1,33 +1,36 @@
 .place {
-    max-width: 984px;
-    margin-bottom: 80px;
-    display: grid;
-    grid-template-columns: repeat(2, fit-content(320px));
-    grid-template-areas:
-        "title website"
-        "image paragraph";
-    gap: 48px 40px;
+  max-width: 984px;
+  margin-bottom: 80px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, fit-content(320px));
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+  gap: 48px 40px;
 }
 
 @media screen and (max-width: 1279px) {
-    .place {
-        max-width: 928px;
-        gap: 48px 32px;
-    }
+  .place {
+    max-width: 928px;
+    gap: 48px 32px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place {
-        max-width: 720px;
-        margin-bottom: 73px;
-        gap: 48px 28px;
-    }
+  .place {
+    max-width: 720px;
+    margin-bottom: 73px;
+    gap: 48px 28px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place {
-        display: inline;
-        max-width: 320px;
-        margin-bottom: 50px;
-    }
+  .place {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin-bottom: 50px;
+    gap: 32;
+  }
 }

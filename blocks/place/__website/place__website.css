@@ -1,28 +1,23 @@
 .place__website {
-    grid-area: website;
-    align-self: end;
-}
-
-.place__website:hover {
-    opacity: 0.8;
+  grid-area: website;
+  align-self: end;
 }
 
 @media screen and (max-width: 1279px) {
-    .place__website {
-        max-width: 456px;
-    }
+  .place__website {
+    max-width: 456px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__website {
-        max-width: 352px; 
-
-    }
+  .place__website {
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__website {
-        max-width: 288px;
-        margin-bottom: 32px;
-    }
+  .place__website {
+    max-width: 288px;
+    align-self: start;
+  }
 }

@@ -1,30 +1,26 @@
 .lead__subtitle {
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 64px;
-    width: 640px;
-    text-align: center;
-    line-height: 36px;
-    font-size: 30px;
-    font-weight: 400;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 64px;
+  width: 640px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 400;
 }
-
 
 @media screen and (max-width: 1279px) {
-    .lead__subtitle {
-        margin-bottom: 56px;
-    }
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
 }
-
 
 @media screen and (max-width: 767px) {
-    .lead__subtitle {
-        max-width: 288px;
-        margin-bottom: 40px;
-        font-size: 16px;
-        line-height: 20px;
-    }
+  .lead__subtitle {
+    max-width: 288px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
-
-
