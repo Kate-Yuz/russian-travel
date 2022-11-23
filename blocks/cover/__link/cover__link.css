@@ -1,24 +1,28 @@
 .cover__link {
   text-decoration: none;
+  background-image: url(../../../images/__background-cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   max-width: 1184px;
   min-height: 740px;
-  background-image: url(../../../images/__overlay.png);
-  background-size: cover;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cover__link:before {
   position: absolute;
   content: "";
   background: #2a2c2f;
-  opacity: 0.1;
+  opacity: 0.3;
   min-width: 100%;
   min-height: 100%;
 }
 
 .cover__link:hover::before {
   transition: 0.5s;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {

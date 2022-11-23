@@ -1,5 +1,5 @@
 .photo-grid__image {
-    object-fit: cover;
-    width: 100%;
-    max-width: 284px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
 }

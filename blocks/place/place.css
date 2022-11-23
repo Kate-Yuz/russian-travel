@@ -1,7 +1,7 @@
 .place {
   max-width: 984px;
   margin-bottom: 80px;
-  padding: 0;
+  padding-bottom: 0;
   display: grid;
   grid-template-columns: repeat(2, fit-content(320px));
   grid-template-areas:
@@ -31,6 +31,6 @@
     flex-direction: column;
     max-width: 320px;
     margin-bottom: 50px;
-    gap: 32;
+    gap: 32px;
   }
 }

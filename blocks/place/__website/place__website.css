@@ -19,5 +19,6 @@
   .place__website {
     max-width: 288px;
     align-self: start;
+    margin: 0 16px;
   }
 }

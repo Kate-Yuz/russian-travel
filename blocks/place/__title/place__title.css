@@ -25,6 +25,8 @@
   .place__title {
     max-width: 288px;
     font-size: 32px;
+    text-align: left;
     line-height: 35px;
+    margin: 0 16px;
   }
 }
